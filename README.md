@@ -53,6 +53,6 @@ print(text)
 
 🧩 전체 구조 요약
 
-├── llm_module.py        # Gemma 3 12B 기반 텍스트 생성
-├── rag_pipeline.py      # LangChain RAG 파이프라인 (예선: 비활성)
-└── stt_module.py        # Whisper Large v3 음성 인식
+-  llm_module.py        # Gemma 3 12B 기반 텍스트 생성
+-  rag_pipeline.py      # LangChain RAG 파이프라인 (예선: 비활성)
+-  stt_module.py        # Whisper Large v3 음성 인식
