@@ -20,6 +20,7 @@
 
 ### 주요 기능
 llm = LLMProcessor()
+
 print(llm.generate("청년 상담 연계 서비스의 장점을 설명하라"))
 
 ⸻
@@ -32,6 +33,7 @@ print(llm.generate("청년 상담 연계 서비스의 장점을 설명하라"))
 ### 주요 기능
 
 rag = RAGPipeline()
+
 print(rag.query("청년 상담 데이터를 기반으로 주요 문제 유형을 설명하라"))
 
 반환: “RAG 검색 기능은 예선 단계에서 비활성 상태로 설정함”
@@ -47,6 +49,7 @@ print(rag.query("청년 상담 데이터를 기반으로 주요 문제 유형을
 주요 기능
 
 stt = STTProcessor()
+
 text = stt.transcribe("input_audio.wav")
 print(text)
 ⸻
